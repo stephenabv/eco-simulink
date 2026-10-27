@@ -38,9 +38,9 @@ Service workers only run on HTTPS or `localhost`.
 
 ## Deployment (Vercel)
 
-1. Import the repository in Vercel. The framework preset is detected as Next.js; no environment variables are needed.
-2. Build command `npm run build`, output directory `out`.
-3. `vercel.json` sets security headers and keeps `sw.js` uncached so updates reach students.
+1. Import the repository in Vercel. No environment variables are needed.
+2. `vercel.json` already sets everything: the site is deployed as plain static files from `out/` (framework preset off), so the generated service worker is served. Do not switch the preset back to Next.js, or `sw.js` will be missing and offline mode will not work.
+3. It also sets security headers and keeps `sw.js` uncached so updates reach students.
 
 Any static host works: upload the contents of `out/` and serve it over HTTPS, with `sw.js` sent as `Cache-Control: no-cache`.
 
