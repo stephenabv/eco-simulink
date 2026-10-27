@@ -84,3 +84,15 @@ export function evaluateCategorization<TCategory extends string>(
     }),
   );
 }
+
+/** Per-item status for sequence results, keyed by the item placed in each slot. */
+export function itemStatusesFromSequence(result: EvaluationResult): Record<string, PlacementStatus> {
+  const statuses: Record<string, PlacementStatus> = {};
+  for (const feedback of result.feedback) if (feedback.given !== null) statuses[feedback.given] = feedback.status;
+  return statuses;
+}
+
+/** Per-item status for categorisation results, where each feedback slot is an item id. */
+export function itemStatusesFromCategorization(result: EvaluationResult): Record<string, PlacementStatus> {
+  return Object.fromEntries(result.feedback.map((feedback) => [feedback.slot, feedback.status]));
+}

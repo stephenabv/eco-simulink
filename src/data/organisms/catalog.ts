@@ -181,7 +181,9 @@ export const FEEDING_RELATIONS: readonly FeedingRelation[] = [
 export const FOOD_CHAINS: readonly FoodChain[] = [
   { id: "grassland-long", ecosystem: "grassland", sequence: ["grass", "grasshopper", "frog", "snake", "eagle"] },
   { id: "grassland-mouse", ecosystem: "grassland", sequence: ["grass", "mouse", "snake", "eagle"] },
+  { id: "grassland-frog", ecosystem: "grassland", sequence: ["grass", "grasshopper", "frog", "snake"] },
   { id: "grassland-short", ecosystem: "grassland", sequence: ["grass", "rabbit", "eagle"] },
   { id: "pond-long", ecosystem: "pond", sequence: ["phytoplankton", "zooplankton", "small-fish", "large-fish", "heron"] },
+  { id: "pond-fish", ecosystem: "pond", sequence: ["phytoplankton", "zooplankton", "small-fish", "large-fish"] },
   { id: "pond-short", ecosystem: "pond", sequence: ["phytoplankton", "zooplankton", "small-fish", "heron"] },
 ];

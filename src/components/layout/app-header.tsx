@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ConnectionStatus } from "./connection-status";
+import { MainNav } from "./main-nav";
 
 export function AppHeader() {
   return (
@@ -12,6 +13,7 @@ export function AppHeader() {
         </Link>
         <ConnectionStatus />
       </div>
+      <MainNav />
     </header>
   );
 }

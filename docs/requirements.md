@@ -2,6 +2,8 @@
 
 Phase 1 output (requirement analysis). Source: the AI agent master prompt and project context supplied on 2026-10-27. **The researchers' mockups and detailed project brief have not been supplied yet**; when they arrive they become the source of truth and this checklist will be reconciled against them.
 
+> **Update (prototype):** every module below now has a working screen built on an interim design by the development team. Content is draft; items marked ❓ still need researcher input before they are final.
+
 Status key: ✅ done in this repository · 🟡 core logic done, UI pending · ⬜ not started · ❓ blocked on information
 
 ## 1. Platform and delivery
