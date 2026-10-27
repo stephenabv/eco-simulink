@@ -35,7 +35,7 @@ export const LEARNING_MODULES: readonly LearningModule[] = [
     summary: "Ecosystems, producers and consumers, food chains and webs, energy flow, and ecological pyramids.",
     stage: "Understand",
     icon: "book",
-    href: null,
+    href: "/lessons/",
   },
   {
     id: "activities",
@@ -43,7 +43,7 @@ export const LEARNING_MODULES: readonly LearningModule[] = [
     summary: "Build a food chain, organise a food pyramid, and classify organisms by dragging or tapping.",
     stage: "Explore",
     icon: "puzzle",
-    href: null,
+    href: "/activities/",
   },
   {
     id: "simulation",
@@ -51,7 +51,7 @@ export const LEARNING_MODULES: readonly LearningModule[] = [
     summary: "Change sunlight and populations, then watch how the whole ecosystem responds.",
     stage: "Experiment",
     icon: "flask",
-    href: null,
+    href: "/simulation/",
   },
   {
     id: "pyramid",
@@ -59,7 +59,7 @@ export const LEARNING_MODULES: readonly LearningModule[] = [
     summary: "See how much energy is left at each trophic level and why the top is so small.",
     stage: "Apply",
     icon: "pyramid",
-    href: null,
+    href: "/pyramid/",
   },
   {
     id: "assessment",
@@ -67,7 +67,7 @@ export const LEARNING_MODULES: readonly LearningModule[] = [
     summary: "Check what you have learned with instant feedback and explanations.",
     stage: "Evaluate",
     icon: "quiz",
-    href: null,
+    href: "/assessment/",
   },
   {
     id: "progress",
@@ -75,6 +75,6 @@ export const LEARNING_MODULES: readonly LearningModule[] = [
     summary: "See finished lessons, scores, points and badges saved on this device.",
     stage: "Evaluate",
     icon: "chart",
-    href: null,
+    href: "/progress/",
   },
 ];

@@ -2,7 +2,7 @@
 
 An interactive, offline-capable web app that teaches Grade 7 students about energy flow in ecosystems: producers, consumers and decomposers, food chains and food webs, trophic levels, and ecological pyramids. Built for an undergraduate thesis project.
 
-> **Status:** foundation stage. The learning logic (food web, simulation, activity and quiz engines, local progress) and the offline app shell are in place and tested. Lesson, activity, simulation and quiz screens will be built from the researchers' mockups. See [docs/requirements.md](docs/requirements.md) for the feature checklist and the open questions.
+> **Status:** working prototype. All modules work end to end, online and offline: dashboard, five lessons, three drag-and-drop activities (with tap and keyboard alternatives), the Ecosystem Lab simulation, the Energy Pyramid explorer, the quiz, and the progress page. The visual design is an interim one until the researchers' mockups arrive, and all content is a draft pending their review. See [docs/requirements.md](docs/requirements.md) for the feature checklist and the open questions.
 
 ## Requirements
 
